@@ -83,6 +83,11 @@ class MainActivity : ComponentActivity() {
                             Column(
                                 modifier = Modifier.fillMaxWidth(),
                                 verticalArrangement = Arrangement.spacedBy(8.dp)
-                            )
+                            ){
+                                RadioButtonOption(text = "Janda", selected = false, onSelected = {})
+                                RadioButtonOption(text = "Lajang", selected = false, onSelected = {})
+                                RadioButtonOption(text = "Duda", selected = false, onSelected = {})
+                            }
+
 
 
