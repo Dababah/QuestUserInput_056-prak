@@ -79,5 +79,10 @@ class MainActivity : ComponentActivity() {
                                 RadioButtonOption(text = "Laki-laki", selected = false, onSelected = {})
                                 RadioButtonOption(text = "Perempuan", selected = false, onSelected = {})
                             }
+                            Text("STATUS PERKAWINAN", style = MaterialTheme.typography.labelMedium, color = Color.Black)
+                            Column(
+                                modifier = Modifier.fillMaxWidth(),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            )
 
 
