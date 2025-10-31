@@ -88,6 +88,15 @@ class MainActivity : ComponentActivity() {
                                 RadioButtonOption(text = "Lajang", selected = false, onSelected = {})
                                 RadioButtonOption(text = "Duda", selected = false, onSelected = {})
                             }
+                            Text("ALAMAT", style = MaterialTheme.typography.labelMedium, color = Color.Black)
+                            TextField(
+                                value = "",
+                                onValueChange = {},
+                                placeholder = { Text("Alamat") },
+                                modifier = Modifier.fillMaxWidth()
+                            )
+
+
 
 
 
