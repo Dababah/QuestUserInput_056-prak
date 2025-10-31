@@ -33,3 +33,21 @@ class MainActivity : ComponentActivity() {
                                     fontSize = 20.sp,
                                     fontWeight = FontWeight.Bold,
                                     color = Color.White
+                                )
+                            },
+                            colors = TopAppBarDefaults.smallTopAppBarColors(
+                                containerColor = Color(0xFFB39DDB)
+                            )
+                        )
+                    }
+                ) { paddingValues ->
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(paddingValues)
+                            .padding(16.dp)
+                            .verticalScroll(rememberScrollState()),
+                        verticalArrangement = Arrangement.spacedBy(16.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+
