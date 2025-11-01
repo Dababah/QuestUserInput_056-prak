@@ -1,0 +1,1 @@
+emulator saya error mas 
